@@ -1,0 +1,230 @@
+body {
+    align-content: center;
+}
+
+.hoja {
+    width: 980px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: rgb(139, 189, 223);*/
+    background: rgb(26, 13, 238);
+    background: linear-gradient(137deg, rgba(26, 13, 238, 1) 0%, rgba(92, 140, 237, 0.8995973389355743) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.imagen {
+    background-color: beige;
+    width: 650px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    padding: 10px;
+    box-shadow: 11px 13px 14px -1px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 11px 13px 14px -1px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 11px 13px 14px -1px rgba(0, 0, 0, 0.56);
+
+
+
+
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.cajalista {
+    background-color: beige;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+
+}
+
+.apartados {
+    background-color: beige;
+    width: 780px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    box-shadow: 11px 13px 14px -1px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 11px 13px 14px -1px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 11px 13px 14px -1px rgba(0, 0, 0, 0.56);
+
+
+}
+
+.datos {
+    width: 280px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(139, 189, 223,0.1);
+   
+}
+
+form {
+
+    background-color: rgb(139, 189, 223);
+    width: 650px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.imagen {
+    -webkit-animation: newspaper 4s ease 0s 1 normal;
+    -moz-animation: newspaper 4s ease 0s 1 normal;
+    -ms-animation: newspaper 4s ease 0s 1 normal;
+    animation: newspaper 4s ease 0s 1 normal;
+}
+
+@-webkit-keyframes newspaper {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3) rotate(720deg);
+        transform: scale3d(0.3, 0.3, 0.3) rotate(720deg);
+    }
+
+    30% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1) rotate(15deg);
+        transform: scale3d(1, 1, 1) rotate(15deg);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1) rotate(15deg);
+        transform: scale3d(1, 1, 1) rotate(15deg);
+    }
+}
+
+@keyframes newspaper {
+    0% {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3) rotate(720deg);
+    }
+
+    30% {
+        opacity: 1;
+        transform: scale3d(1, 1, 1) rotate(15deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale3d(1, 1, 1) rotate(15deg);
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .hoja {
+        width: 400px;
+
+    }
+
+
+
+    .imagen {
+
+        width: 350px;
+
+
+    }
+
+
+    .cajalista {
+
+        width: 200px;
+
+    }
+
+    .apartados {
+
+        width: 350px;
+
+    }
+
+    .datos {
+        width: 250px;
+
+    }
+
+    form {
+
+        width: 350px;
+
+
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    .hoja {
+        width: 290px;
+
+    }
+
+
+
+    .imagen {
+
+        width: 280px;
+
+
+    }
+
+
+    .cajalista {
+
+        width: 200px;
+
+    }
+
+    .apartados {
+
+        width: 280px;
+
+    }
+
+    .datos {
+        width: 280px;
+
+    }
+
+    form {
+
+        width: 280px;
+
+
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+}
