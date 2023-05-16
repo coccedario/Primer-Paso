@@ -55,12 +55,12 @@ nav ul li a {
 }
 
 .inicio {
-    background-color: rgb(131, 125, 136);
+    /* background-color: rgb(131, 125, 136); */
     background-repeat: no-repeat;
     background-size: cover;
     height: 479px;
     background-image: url(../img/microfonos.jpg);
-
+padding: 50px;
 
 
 }
@@ -128,6 +128,8 @@ footer {
     height: auto;
 }
 
+/*  inicio Cuerdas*/
+
 .catalogo {
     text-align: center;
     color: #eef5f5;
@@ -146,9 +148,9 @@ footer {
     margin: 0 auto;
     height: 300px;
     background: rgb(1, 0, 8);
-    background: -moz-linear-gradient(279deg, rgba(1, 0, 8, 1) 0%, rgba(0, 139, 139, 1) 78%);
-    background: -webkit-linear-gradient(279deg, rgba(1, 0, 8, 1) 0%, rgba(0, 139, 139, 1) 78%);
-    background: linear-gradient(279deg, rgba(1, 0, 8, 1) 0%, rgba(0, 139, 139, 1) 78%);
+    background: -moz-linear-gradient(279deg, rgba(1, 0, 8, 1) 0%, rgba(4, 78, 78) 78%);
+    background: -webkit-linear-gradient(279deg, rgba(1, 0, 8, 1) 0%, rgba(4, 78, 78) 78%);
+    background: linear-gradient(279deg, rgba(1, 0, 8, 1) 0%, rgb(4, 78, 78) 78%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010008", endColorstr="#008b8b", GradientType=1);
     padding: 30px;
     color: #008b8b;
@@ -185,4 +187,97 @@ footer {
 -webkit-transform: scale(1.03) ;
 -moz-transform: scale(1.03) ;
 }
-/* fin personas*/
+/* Inicio Teclados */
+
+.teclas {
+
+    text-align: center;
+    border: 1px solid #008b8b;
+    border-radius: 10px;
+    width: 98%;
+    margin: 0 auto;
+    height: 300px;
+    background: rgb(1, 0, 8);
+    background: -moz-linear-gradient(279deg, rgba(1, 0, 8, 1) 0%, rgba(4, 78, 78) 78%);
+    background: -webkit-linear-gradient(279deg, rgba(1, 0, 8, 1) 0%, rgba(4, 78, 78) 78%);
+    background: linear-gradient(279deg, rgba(1, 0, 8, 1) 0%, rgb(4, 78, 78) 78%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010008", endColorstr="#008b8b", GradientType=1);
+    padding: 30px;
+    color: #008b8b;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.detteclas {
+
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+
+}
+
+.imgteclas {
+    width: 240px;
+    height: 240px;
+    background-color: #008b8b;
+    /* flex-wrap: nowrap; */
+}
+
+.imgteclas img{
+    width: 240px;
+    height: 240px;
+
+}
+
+.teclas:hover {
+
+    transform: scale(1.03) ;
+-webkit-transform: scale(1.03) ;
+-moz-transform: scale(1.03) ;
+}
+
+/* Inicio Contacto*/
+
+.cuadro{
+
+    
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: #2524249c; */
+    background: #a6adad;
+    padding: 30px;
+    /* margin-top: 70px; */
+    margin-bottom: 70px;
+    border-radius: 10px;
+    
+}
+
+.contacto{
+
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  
+}
+
+.contacto label{
+
+  min-width: 100px;
+}
+
+.contacto input{
+
+    border-radius: 5px;
+}
+.contacto textarea{
+
+    max-width: 190px;
+    border-radius: 10px;
+    resize: none;
+}
+.renglon{
+    display: flex;
+}
