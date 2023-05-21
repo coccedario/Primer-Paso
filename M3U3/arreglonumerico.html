@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var arreglo = ['0'];
+        var valor = 0;
+        var mayor = 0;
+        var salida = 0;
+        var i = 0;
+        var x = 0;
+
+        for (let l = 0; l < 7; l++) {
+            valor = prompt('Ingrese siete numeros y le devolvera el mayor ', '');
+            arreglo[l] = (valor);
+
+        }
+
+       
+
+        for (i = 0; i < 7; i++) {
+
+           
+
+            for (x = i + 1; x < 7; x++) {
+
+                if (parseInt(arreglo[i]) > parseInt(arreglo[x])) {
+                    mayor = arreglo[i];
+                    salida = 1;
+                    
+                } else {
+
+                    salida = 0;
+                    
+                 
+                    break;
+                }
+
+
+
+
+            }
+
+            if (i > 5) {
+                        salida = 1;
+                        mayor = arreglo[6];
+                    }
+
+            if (salida > 0) {
+                
+                break;
+
+            }
+
+        }
+
+
+
+
+
+
+        document.write(' El numero mayor ingresado es el : ' + mayor);
+        document.write('<br>');
+        document.write('<br>');
+        document.write(' Numeros ingresados ');
+        document.write('<br>');
+        document.write(arreglo);
+
+    </script>
+
+
+    <script src="codigo.js"></script>
+</body>
+
+</html>
