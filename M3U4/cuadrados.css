@@ -1,0 +1,27 @@
+#rojo{
+
+    height: 90px;
+    width: 90px;
+    background: red;
+}
+
+#verde{
+
+    height: 90px;
+    width: 90px;
+    background: green;
+}
+
+#azul{
+
+    height: 90px;
+    width: 90px;
+    background: blue;
+}
+
+body{
+
+    display: flex;
+    flex-direction: row;
+    
+}

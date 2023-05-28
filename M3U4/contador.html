@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+</head>
+<body>
+    
+    <div>
+
+<textarea   id="mensaje" cols="20" rows="5" maxlength="100" style="height: 100px;width: 300px;"></textarea>
+<br>
+solo se permiten 100 caracteres <span id="contador"></span>
+
+    </div>
+
+    <script>
+const mensaje = document.getElementById('mensaje');
+const contador = document.getElementById('contador');
+
+mensaje.addEventListener('input', function(e) {
+    const target = e.target;
+   
+    const longitudAct = target.value.length;
+    const longitudMax = 100;
+    contador.innerHTML = `${longitudAct}/${longitudMax}`;
+});
+
+    </script>
+</body>
+</html>
+
