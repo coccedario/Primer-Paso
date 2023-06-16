@@ -9,6 +9,8 @@ var usersRouter = require('./routes/users');
 var preciosRouter = require('./routes/precios');
 var promocionesRouter = require('./routes/promociones');
 var productosRouter = require('./routes/productos');
+var promo1Router = require('./routes/promo1');
+var promo2Router = require('./routes/promo2');
 
 var app = express();
 
@@ -27,6 +29,8 @@ app.use('/users', usersRouter);
 app.use('/precios', preciosRouter);
 app.use('/promociones', promocionesRouter);
 app.use('/productos', productosRouter);
+app.use('/promo1', promo1Router);
+app.use('/promo2', promo2Router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
